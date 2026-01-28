@@ -1,7 +1,7 @@
 {
   "name": "task",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,26 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/material-top-tabs": "^7.4.13",
     "expo": "~54.0.32",
+    "expo-constants": "~18.0.13",
+    "expo-linking": "~8.0.11",
+    "expo-router": "~6.0.22",
     "expo-status-bar": "~3.0.9",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-pager-view": "6.9.1",
+    "react-native-paper": "^5.14.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-tab-view": "^4.2.2"
+  },"expo": {
+    "name": "task",
+    "slug": "task",
+    "version": "1.0.0",
+    "scheme": "myapp" 
+   
   },
   "private": true
 }
